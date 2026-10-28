@@ -1,37 +1,29 @@
-# Angenica Tizon — IT Portfolio
+# Angenica Tizon — Complete IT Portfolio (Rebuilt October 2026)
 
-A responsive, plain HTML/CSS/JavaScript portfolio with no build dependencies. Contains a professional hero, work experience, project case studies, skills, degree and credential gallery (15 uploaded images/PDFs), theme toggle, filtering, search, and contact shortcuts.
+This folder is **standalone**. You can delete the previous portfolio folder.
 
-## Run locally
+## Start
+Open `index.html` in a browser. For development, open the folder in VS Code with Live Server, or run `python -m http.server 8000`.
 
-For best results, start a small local server inside this folder:
+## Included
+- HTML, CSS, JavaScript with dark/light mode and responsive navigation
+- Résumé and 15 degree, course, and recognition records with original uploaded files
+- Your latest CCNA achievement photo (`assets/images/ccna-achievement.jpg`)
+- Coding video (`assets/videos/coding.mp4`)
+- A highlighted QRDI-funded digital twin project with **Project Leader & API Lead** role and the live project link
+- The live RSVP link
+- Certificate filtering/search, project case-study popups, resume download, contact shortcuts
 
-```bash
-python -m http.server 8000
-```
+## Project links
+Digital twin: https://angenicatizon.me/digitaltwinsite/
+RSVP: https://bio.site/finALYwithRenze
 
-Then open `http://localhost:8000` in your browser. You can also open `index.html` directly, though local hosting is preferable for testing.
+## Publish
+Upload *all contents* of this folder to a GitHub Pages, Netlify, or Vercel static website. Keep relative paths intact. Check all links and mobile rendering before applying to jobs.
 
-## Deploy for free
-
-Upload the entire folder contents to GitHub Pages, Netlify, or Vercel as a static site. Keep the `assets/` folder beside `index.html`.
-
-## Before publishing
-
-1. Review the personal contact information, resume, and certificates. They become public if the website is public.
-2. Replace the project illustrations with screenshots of your actual work; add GitHub repository and demo URLs to case studies as available.
-3. Add any portfolio project details, metrics, and testimonials you can substantiate. Existing project descriptions are based on your submitted resume.
-4. The certificates include *CCNA: Switching, Routing, and Wireless Essentials course completion*. This site intentionally does **not** claim a full CCNA exam certification.
-5. The degree image is dated August 9, 2026; the resume uses a different graduation date. This site displays only 2026 to avoid a potentially confusing conflict.
-6. Site does not collect visitor data or send messages. The email button opens the visitor's email app. A contact form would need a backend or third-party service.
-7. The photo is extracted from your submitted résumé.
-
-## Edit content
-
-- `index.html`: site layout, social links, contact, headline.
-- `styles.css`: visual theme and layout.
-- `script.js`: the `skills`, `experiences`, `projects`, and `certs` data arrays and interactions.
-- `assets/docs`: resume and profile PDFs.
-- `assets/certificates`: original certs and previews.
-
-Built with accessible semantic HTML, responsive layout, reduced-motion support, and lazy-loaded certificate previews.
+## Important notes
+- Your personal contact info, résumé, and certificates become public when hosted. Review privacy before publishing.
+- Course completion in **CCNA: Switching, Routing, and Wireless Essentials** is not represented as the professional CCNA exam certification.
+- Other project screenshots, code repositories and architecture diagrams are not supplied, so the website does not invent them.
+- QRDI funding and project lead/API lead responsibilities were provided by you; add confirmation/evidence if sharing externally.
+- The email button opens the visitor's email app; no backend contact form is present.
